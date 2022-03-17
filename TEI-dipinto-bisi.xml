@@ -1,0 +1,140 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeadaer>
+		<fileDesc>
+			<titleStmt>
+				<title>Orlando Furioso - Canto XXIX, 40-48</title>
+				<author>Ludovico Ariosto</author>
+				<respStmt>
+					<name xml:id="ES">Ester Silverio</name>
+					<resp>Marcatura</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>URL del sito</publisher>
+				<date>2022</date>
+				<availability>
+					<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bible><title>Orlando Furioso</title>, di <author>Ludovico Ariosto</author>.<pubPlace>Ferrara</pubPlace>, <date>1532</date>.</bible>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc></projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeadaer>
+	<text>
+		<body>
+			<head>Canto XXIX - estratto</head>
+			<lg type="ottava" rhyme="abababcc">
+				<head>40</head>
+				<l>A caso venne il furioso <rhyme label="a"><name type="persona" resp="ES">conte</name></rhyme></l>
+				<l>a capitar su questa gran <rhyme label="b"><name type="luogo" resp="ES">riviera</name></rhyme>,</l>
+				<l>dove, come io vi dico, <rhyme label="a"><name type="persona" resp="ES">Rodomonte</name></rhyme></l>
+				<l>fare in fretta facea, né finito <rhyme label="b">era</rhyme></l>
+				<l>la <name type="luogo" resp="ES">torre</name> né il <name type="luogo" resp="ES">sepolcro</name>, e a pena il <rhyme label="a"><name type="luogo" resp="ES">ponte</name></rhyme>:</l>
+				<l>e di tutte arme, fuor che di <rhyme label="b">visiera</rhyme>,</l>
+				<l>a quell'ora il <name type="persona" resp="ES">pagan</name> si trovò in <rhyme label="c">punto</rhyme>,</l>
+				<l>ch'<name type="persona" resp="ES">Orlando</name> al <name type="luogo" resp="ES">fiume</name> e al <name type="luogo" resp="ES">ponte</name> è <rhyme label="c">sopragiunto</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>41</head>
+				<l><name type="persona" resp="ES">Orlando</name> (come il suo furor lo <rhyme label="a">caccia</rhyme>)</l>
+				<l>salta la sbarra e sopra il <name type="luogo" resp="ES">ponte</name> <rhyme label="b">corre</rhyme>.</l>
+				<l>Ma <name type="persona" resp="ES">Rodomonte</name> con turbata <rhyme label="a">faccia</rhyme>,</l>
+				<l>a piè, com'era inanzi a la gran <rhyme label="b"><name type="luogo" resp="ES">torre</name></rhyme>,</l>
+				<l>gli grida di lontano e gli <rhyme label="a">minaccia</rhyme>,</l>
+				<l>né se gli degna con la spada <rhyme label="b">opporre</rhyme>:</l>
+				<said><l>- Indiscreto villan, ferma le <rhyme label="c">piante</rhyme>,</l>
+				<l>temerario, importuno ed <rhyme label="c">arrogante</rhyme>!</l></said>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>42</head>
+				<l>Sol per signori e cavallieri è <rhyme label="a">fatto</rhyme></l>
+				<l>il <name type="luogo" resp="ES">ponte</name>, non per te, bestia <rhyme label="b">balorda</rhyme>. -</l>
+				<l><name type="persona" resp="ES">Orlando</name>, ch'era in gran pensier <rhyme label="a">distratto</rhyme>,</l>
+				<l>vien pur inanzi e fa l'orecchia <rhyme label="b">sorda</rhyme>.</l>
+				<l><said>- Bisogna ch'io castighi questo <rhyme label="a">matto</rhyme> -</said></l>
+				<l>disse il <name type="persona" resp="ES">pagano</name>; e con la voglia <rhyme label="b">ingorda</rhyme></l>
+				<l>venìa per traboccarlo giù ne l'<rhyme label="c">onda</rhyme>,</l>
+				<l>non pensando trovar chi gli <rhyme label="c">risponda</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>43</head>
+				<l>In questo tempo una gentil <rhyme label="a"><name type="persona" resp="ES">donzella</name></rhyme>,</l>
+				<l>per passar sovra il <name type="luogo" resp="ES">ponte</name>, al fiume <rhyme label="b">arriva</rhyme>,</l>
+				<l>leggiadramente ornata e in viso <rhyme label="a">bella</rhyme>,</l>
+				<l>e nei sembianti accortamente <rhyme label="b">schiva</rhyme>.</l>
+				<l>Era (se vi ricorda, Signor) <rhyme label="a">quella</rhyme></l>
+				<l>che per ogni altra via cercando <rhyme label="b">giva</rhyme></l>
+				<l>di <name type="persona" resp="ES">Brandimarte</name>, il suo amator, <rhyme label="c">vestigi</rhyme>,</l>
+				<l>fuor che, dove era, dentro da <rhyme label="c">Parigi</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>44</head>	
+				<l>Ne l'arrivar di <name type="persona" resp="ES">Fiordiligi</name> al <rhyme label="a"><name type="luogo" resp="ES">ponte</name></rhyme></l>
+				<l>(che così la <name type="persona" resp="ES">donzella</name> nomata <rhyme label="b">era</rhyme>),</l>
+				<l><name type="persona" resp="ES">Orlando</name> s'attaccò con <rhyme label="a"><name type="persona" resp="ES">Rodomonte</name></rhyme></l>
+				<l>che lo volea gittar ne la <rhyme label="b"><name type="luogo" resp="ES">riviera</name></rhyme>.</l>
+				<l><name type="persona" resp="ES">La donna</name>, ch'avea pratica del <rhyme label="a"><name type="persona" resp="ES">conte</name></rhyme>,</l>
+				<l>subito n'ebbe conoscenza <rhyme label="b">vera</rhyme>:</l>
+				<l>e restò d'alta maraviglia <rhyme label="c">piena</rhyme>,</l>
+				<l>de la follia che così nudo <rhyme label="c"><name type="persona" resp="ES">il</name> mena</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>45</head>
+				<l>Fermasi a riguardar che fine <rhyme label="a">avere</rhyme></l>
+				<l>debba il furor dei duo tanti <rhyme label="b">possenti</rhyme>.</l>
+				<l>Per far del <name type="luogo" resp="ES">ponte</name> l'un l'altro <rhyme label="a">cadere</rhyme></l>
+				<l>a por tutta lor forza sono <rhyme label="b">intenti</rhyme>.</l>
+				<l><said>- Come è ch'un pazzo debba sì <rhyme label="a">valere</rhyme>? -</said></l>
+				<l>seco il <name type="persona" resp="ES">fiero pagan</name> dice tra' <rhyme label="b">denti</rhyme>;</l>
+				<l>e qua e là si volge e si <rhyme label="c">raggira</rhyme>,</l>
+				<l>pieno di sdegno e di superbia e d'<rhyme label="c">ira</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>46</head>	
+				<l>Con l'una e l'altra man va <rhyme label="a">ricercando</rhyme></l>
+				<l>far nuova presa, ove il suo meglio <rhyme label="b">vede</rhyme>;</l>
+				<l>or tra le gambe, or fuor gli pone, <rhyme label="a">quando</rhyme></l>
+				<l>con arte il destro, e quando il manco <rhyme label="b">piede</rhyme>.</l>
+				<l>Simiglia <name type="persona" resp="ES">Rodomonte</name> intorno a <rhyme label="a"><name type="persona">Orlando</name></rhyme></l>
+				<l>lo stolido orso che sveller si <rhyme label="b">crede</rhyme></l>
+				<l>l'arbor onde è caduto; e come n'<rhyme label="c">abbia</rhyme></l>
+				<l>quello ogni colpa, odio gli porta e <rhyme label="c">rabbia</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>47</head>	
+				<l><name type="persona" resp="ES">Orlando,</name> che l'ingegno avea <rhyme label="a">sommerso</rhyme>,</l>
+				<l>io non so dove, e sol la forza <rhyme label="b">usava</rhyme>,</l>
+				<l>l'estrema forza a cui per l'<rhyme label="a">universo</rhyme></l>
+				<l>nessuno o raro paragon si <rhyme label="b">dava</rhyme>,</l>
+				<l>cader del ponte si lasciò <rhyme label="a">riverso</rhyme></l>
+				<l>col <name type="persona" resp="ES">pagano</name> abbracciato come <rhyme label="b">stava</rhyme>.</l>
+				<l>Cadon nel <name type="luogo" resp="ES">fiume</name> e vanno al fondo <rhyme label="c">insieme</rhyme>:</l>
+				<l>ne salta in aria l'onda, e il lito <rhyme label="c">geme</rhyme>.</l>
+			</lg>
+			<lg type="ottava" rhyme="abababcc">
+				<head>48</head>	
+				<l>L'acqua gli fece distaccare in <rhyme label="a">fretta</rhyme>.</l>
+				<l><name type="persona" resp="ES">Orlando</name> è nudo, e nuota com'un <rhyme label="b">pesce</rhyme>:</l>
+				<l>di qua le braccia, e di là i piedi <rhyme label="a">getta</rhyme>,</l>
+				<l>e viene a proda; e come di fuor <rhyme label="b">esce</rhyme>,</l>
+				<l>correndo va, né per mirare <rhyme label="a">aspetta</rhyme>,</l>
+				<l>se in biasmo o in loda questo gli <rhyme label="b">riesce</rhyme>.</l>
+				<l>Ma il <name type="persona" resp="ES">pagan</name>, che da l'arme era <rhyme label="c">impedito</rhyme>,</l>
+				<l>tornò più tardo e con più affanno al <rhyme label="c">lito</rhyme>.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
+
+
+
+

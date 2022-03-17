@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta lang="it">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="DC.Title" content="Orlando Furioso: immagini e poesia">
+		    <meta name="DC.Creator.PersonalName" content="Ester Silverio">
+		    <meta name="DC.Creator.PersonalName.Address" content="ester.silverio@studio.unibo.it">
+		    <meta name="DC.Subject" content="Catalogo">
+		    <meta name="DC.Subject" content="Arte">
+		    <meta name="DC.Subject" content="Letteratura del Cinquecento">
+		    <meta name="DC.Subject" content="Orlando Furioso">
+		    <meta name="DC.Description" content="Catalogo online di oggetti e opere d'arte ispirate all'Orlando Furioso">
+		    <meta name="DC.Publisher" content="Ester Silverio">
+		    <meta name="DC.Contributor" content="Ester Silverio">
+		    <meta name="DC.Date" content="17/03/2022">
+		    <meta name="DC.Type" content="Collezione">
+		    <meta name="DC.Format" content="html">
+		    <link rel="DC.Identifier" href="https://estersilverio.github.io/orlando-furioso-immagini-e-poesia/">
+		    <meta name="DC.Language" content="it">
+		    <link rel="DC.Coverage" href="http://www.getty.edu/vow/TGNFullDisplay?find=Bologna&place=&nation=&prev_page=1&english=Y&subjectid=7003127">
+		    <meta name="DC.Source" content="http://www.bibliotecaitaliana.it/">
+		    <meta name="DC.Source" content="https://www.lombardiabeniculturali.it/">
+		    <meta name="DC.Source" content="https://www.vam.ac.uk/">
+		    <meta name="DC.Source" content="https://bbcc.ibc.regione.emilia-romagna.it/">
+		    <meta name="DC.Source" content="https://www.pinacotecabologna.beniculturali.it/it/">
+		    <meta name="DC.Source" content="https://mdbk.de/en/">
+		    <meta name="DC-Source" content="ISBN: 9788899765057">
+		    <meta name="DC-Source" content="ISBN: 9788889793350"> 
+			<meta name="DC.Relation" content="https://www.artecultura.fe.it/73/casa-di-ludovico-ariosto">   
+			<meta name="DC.Rights" content="http://creativecommons.org/licenses/by/4.0/"> 
+			<title>Orlando Furioso: immagini e poesia</title>
+			<link rel="stylesheet" type="text/css" href="bootstrap-4.6/css/bootstrap.min.css">
+			<!-- css -->
+    		<link rel="stylesheet" type="text/css" href="stile.css">
+		    <!-- bootstrap icons -->
+		    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+		</head>
+		<body>
+			<header>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				  <a id="torna-su" class="navbar-brand" href="index.html">Orlando Furioso: immagini e poesia</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="index.html">Home</a>
+				      </li>
+				      <li class="nav-item active dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+				          Le collezioni
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="catalogo.html">Il catalogo delle opere</a>
+				          <a class="dropdown-item" href="#">Le illustrazioni di Gustave Doré</a>				          
+				        </div>
+				      </li>
+				     <li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+				          Il poema
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">L'autore</a>
+				          <a class="dropdown-item" href="#">L'opera</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Testo integrale</a>
+				        </div>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Contatti</a>
+				      </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button type="button" class="btn btn-dark">Cerca</button>
+				    </form>
+				  </div>
+				</nav>
+			</header>
+			<!--main-->			
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3 bg-dark">
+						<h2 class="titolo-catalogo">Il catalogo</h2>
+						<div class="opzioni-di-navigazione">
+							<div>
+								<nav aria-label="breadcrumb">
+								  <ol class="breadcrumb bg-dark">
+								    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+								    <li class="breadcrumb-item active" aria-current="page">Catalogo</li>
+								  </ol>
+								</nav>
+							</div>
+							<div id="ordina-la-lista" class="bg-dark">
+								<h4 class="titolo-filtri">Ordina la lista</h4>
+								<button type="button" class="btn btn-block btn-dark">A-Z (autore)</button>
+								<button type="button" class="btn btn-block btn-dark">Z-A (autore)</button>
+								<button type="button" class="btn btn-block btn-dark">Cronologia delle opere</button>
+							</div>
+							<div id="filtra-la-lista" class="bg-dark">
+								<h4 class="titolo-filtri">Filtra la lista</h4>
+								<div class="btn-group dropright">
+								<button type="button" class="btn btn-secondary dropdown-toggle btn-dark" data-toggle="dropdown" aria-expanded="false">Personaggi</button>
+									<div class="dropdown-menu">
+									 	<div class="form-check">
+											<input type="checkbox">
+											<label>Agramante</label><br>                    
+											<input type="checkbox">
+				                            <label>Angelica</label><br>
+				                            <input type="checkbox">
+				                            <label>Astolfo</label><br>
+				                            <input type="checkbox">
+						                    <label>Atlante</label><br>
+						                    <input type="checkbox">
+						                    <label>Bradamante</label><br>
+						                    <input type="checkbox">
+				                            <label>Ferraù</label><br>
+						                    <input type="checkbox">
+				                            <label>Medoro</label><br>
+						                    <input type="checkbox">    
+				                            <label>Orlando</label><br>
+						                    <input type="checkbox">
+						                    <label>Rodomonte</label><br>
+						                    <input type="checkbox">
+				                            <label>Ruggiero</label><br>
+										</div>
+									</div>
+								</div><br>							
+									<div class="btn-group dropright">
+									  <button type="button" class="btn btn-secondary dropdown-toggle btn-dark" data-toggle="dropdown" aria-expanded="false">Tipologia</button>
+										  <div class="dropdown-menu">
+										    <div class="form-check">
+											  	<input type="checkbox">
+		                                    	<label>Affresco - ciclo pittorico</label><br>
+		                                    	<input type="checkbox">
+		                                    	<label>Oggetto</label><br>
+		                                    	<input type="checkbox">
+				                                <label>Quadro</label><br> 
+				                                <input type="checkbox">
+				                                <label>Scultura</label><br>
+				                                <input type="checkbox">
+				                                <label>Stampa - incisione</label><br>
+											</div>
+										  </div>
+									</div><br>
+									<div class="btn-group dropright">
+									  <button type="button" class="btn btn-secondary dropdown-toggle btn-dark" data-toggle="dropdown" aria-expanded="false">Localizzazione</button>
+									  <div class="dropdown-menu">
+									  	<div class="form-check">
+									  			<input type="checkbox">
+			                                    <label>Francia</label><br>
+			                                    <input type="checkbox">
+			                                    <label>Germania</label><br>
+					                     		<input type="checkbox">
+	                                    		<label>Inghilterra</label><br>
+	                                    		<input type="checkbox">
+	                                    		<label>Italia</label><br>
+			                                    <input type="checkbox">
+			                                    <label>USA</label><br>
+											</div>
+									  </div>
+									</div><br>
+									<div class="btn-group dropright">
+									  <button type="button" class="btn btn-secondary dropdown-toggle btn-dark" data-toggle="dropdown" aria-expanded="false">Secolo</button>
+										  <div class="dropdown-menu">
+										    <div class="form-check">
+											  	<input type="checkbox">
+	                                    		<label>1500</label><br>
+	                                    		<input type="checkbox">
+	                                    		<label>1600</label><br>
+			                                    <input type="checkbox">
+			                                    <label>1700</label><br>
+			                                    <input type="checkbox">
+			                                    <label>1800</label><br>
+			                                    <input type="checkbox">
+			                                    <label>1900</label><br>
+											</div>
+										  </div>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="col-md-9 pagina-catalogo">		
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card card-item small-card card-catalogo" style="width: 18rem;">
+								  <img src="vaso-da-farmacia-con-busto-di-agramante-anonimo.jpg" class="card-img-top img-card-catalogo">
+								  <div class="card-body">
+								  	<div class="card-metadata">
+								  		<h5 class="card-title">Anonimo - Vaso da farmacia con busto di Agramante</h5>
+								    	<p class="card-text">Creatore: <b>Anonimo</b></p>
+								    	<p class="card-text">Tipologia: <b>Vaso in ceramica</b></p>
+                                        <p class="card-text">Datazione: <b>1550</b></p>
+                                        <p class="card-text">Localizzazione: <b><a class="link-metadata" href="https://www.micfaenza.org/" target="_blank" title="Sito ufficiale del MIC, Faenza">Faenza, Museo Internazionale delle Ceramiche</a></b></p>
+                                    </div>
+                                    <a href="" class="btn btn-dark btn-block btn-metadata" title="Tutti i metadati">Tutti i metadati</a>   
+   								  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card card-item small-card card-catalogo" style="width: 18rem;">
+								  <img id="img-2" src="orlando-e-rodomonte-combattono-alla-presenza-di-fiordiligi-bisi.jpg" class="card-img-top img-card-catalogo">
+								  <div class="card-body">
+								  	<div class="card-metadata">
+								  		<h5 class="card-title">G. Bisi - Orlando e Rodomonte combattono alla presenza di Fiordiligi</h5>
+								    	<p class="card-text">Creatore: <a href="giuseppe-bisi.html" title="Pagina dell'autore"><b>Bisi, Giuseppe</b></a></p>
+								    	<p class="card-text">Tipologia: <b>Dipinto</b></p>
+                                        <p class="card-text">Datazione: <b>1838</b></p>
+                                        <p class="card-text">Localizzazione: <b><a class="link-metadata" href="https://www.bresciamusei.com/santagiulia.asp/" target="_blank" title="Sito ufficiale del Museo di Santa Giulia, Brescia">Brescia, Museo di Santa Giulia</a></b></p>
+                                    </div>
+                                    <a href="item.html" class="btn btn-dark btn-block btn-metadata" title="Tutti i metadati">Tutti i metadati</a>                       
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card card-item small-card card-catalogo" style="width: 18rem;">
+								  <img id="img-3" src="angelica-e-ruggiero-in-sella-all-ippogrifo-barye.jpg" class="card-img-top img-card-catalogo">
+								  <div class="card-body">
+								    <div class="card-metadata">
+								  		<h5 class="card-title">A. L. Barye - Angelica e Ruggiero in sella all'ippogrifo</h5>
+								    	<p class="card-text">Creatore: <a href="" alt="" title=""><b>Barye, Antoine Louis</b></a></p>
+								    	<p class="card-text">Tipologia: <b>Scultura in bronzo</b></p>
+                                        <p class="card-text">Datazione: <b>1840</b></p>
+                                        <p class="card-text">Localizzazione: <b><a class="link-metadata" href="https://www.louvre.fr/en" target="_blank" title="Sito ufficiale del Louvre, Parigi">Musée du Louvre</a></b></p>
+                                    </div>
+                                    <a href="item.html" class="btn btn-dark btn-block btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+								  </div>
+								</div>
+							</div>	
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="card card-item small-card card-catalogo" style="width: 18rem;">
+								  <img id="img-4" src="orlando-furioso-böcklin.jfif" class="card-img-top img-card-catalogo">
+								  <div class="card-body">
+								    <div class="card-metadata">
+								  		<h5 class="card-title">A. Böcklin - Orlando Furioso</h5>
+								    	<p class="card-text">Creatore: <a href="" alt="" title=""><b>Böcklin, Arnold</b></a></p>
+								    	<p class="card-text">Tipologia: <b>Dipinto</b></p>
+                                        <p class="card-text">Datazione: <b>1901</b></p>
+                                        <p class="card-text">Localizzazione: <b><a class="link-metadata" href="https://mdbk.de/en/" target="_blank" title="Sito ufficiale del Museum der bildenden Künste, Lipsia">Museum der bildenden Künste, Lipsia</a></b></p>  
+                                    </div>             
+                                    <a href="item.html" class="btn btn-dark btn-block btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+								  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card card-item small-card card-catalogo" style="width: 18rem;">
+								  <img id="img-5" src="affreschi-palazzo-torfanini-dell-abate.jpg" class="card-img-top img-card-catalogo">
+								  <div class="card-body">
+								    <div class="card-metadata">
+								  		<h5 class="card-title">N. Dell'Abate - Orlando Furioso</h5>
+								    	<p class="card-text">Creatore: <a href="" alt="" title=""><b>Dell'Abate, Nicolò</b></a></p>
+								    	<p class="card-text">Tipologia: <b>Affresco</b></p>
+                                        <p class="card-text">Datazione:<b>1548-1550</b></p>
+                                        <p class="card-text">Localizzazione: <b><a class="link-metadata" href="https://www.pinacotecabologna.beniculturali.it/it/" target="_blank" title="Sito ufficiale della Pinacoteca Nazionale di Bologna">Bologna, Pinacoteca Nazionale</a></b></p>
+                                    </div>
+                                    <a href="item.html" class="btn btn-dark btn-block btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+                            	  </div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card card-item small-card card-catalogo" style="width: 18rem;">
+								  <img id="img-6" src="bradamante-affronta-il-mago-atlante-mancini.jpg" class="card-img-top img-card-catalogo">
+								  <div class="card-body">
+								  	<div class="card-metadata">
+								  		<h5 class="card-title">G. Mancini - Bradamante affronta il mago Atlante</h5>
+								    	<p class="card-text">Creatore: <a href="" alt="" title=""><b>Mancini, Giacomo</b></a></p>
+								    	<p class="card-text">Tipologia: <b>Bacinella in ceramica</b></p>
+                                        <p class="card-text">Datazione: <b>1545</b></p>
+                                        <p class="card-text">Localizzazione: <b><a class="link-metadata" href="https://www.vam.ac.uk/" target="_blank" title="Sito ufficiale del V&A Museum, Londra">Londra, V&A Museum</a></b></p>
+                                    </div>
+                                	<a href="item.html" class="btn btn-dark btn-block btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+                                	
+								  </div>
+								</div>
+							</div>	
+						</div>
+						<!--PAGINATION-->
+						<nav aria-label="Page navigation example">
+						  <ul class="pagination justify-content-center">
+						    <li class="page-item"><a class="page-link text-white bg-dark border-dark" href="#">Previous</a></li>
+						    <li class="page-item"><a class="page-link text-white bg-dark border-dark" href="#">1</a></li>
+						    <li class="page-item"><a class="page-link text-white bg-dark border-dark" href="#">2</a></li>
+						    <li class="page-item"><a class="page-link text-white bg-dark border-dark" href="#">3</a></li>
+						    <li class="page-item"><a class="page-link text-white bg-dark border-dark" href="#">Next</a></li>
+						  </ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="container-fluid bg-dark">
+						<div class="row">
+							<div class="col-md-5 offset-md-3 footer-1">
+								<h6>Orlando Furioso: immagini e poesia</h6>
+							</div>
+							<div class="col-md-4 footer-2">
+								<p>Credits<br>
+								Licenze<br>
+								Contatti</br>							
+							</div>
+						</div>
+				</div>
+			</footer>
+			<!-- libreria di JavaScript chiamata jQuery -->
+			<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+	        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+		    <!-- bootstrap js -->
+		    <script src="bootstrap-4.6/js/bootstrap.bundle.min.js"></script>
+		</body>
+	</html>

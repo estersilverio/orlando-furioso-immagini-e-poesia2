@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<library xmlns:dc="http://purl.org/dc/elements/1.1" xml:id="Orlando-Furioso-immagini-e-poesia">
+		<author xml:id="Ester Silverio">
+			<object xml:id="item02">
+				<language>it</language>
+				<dc:title>Orlando e Rodomonte combattono alla presenza di Fiordiligi</dc:title>
+				<dc:creator>Bisi, Giuseppe</dc:creator>
+				<dc:subject>Arte</dc:subject>
+				<dc:subject>Pittura</dc:subject>
+				<dc:subject>Romanticismo</dc:subject>
+				<dc:subject>Letteratura del Cinquecento</dc:subject>
+				<dc:subject>Orlando Furioso</dc:subject>
+				<dc:date>1838</dc:date>
+				<dc:description>Su un ponte, a precipizio su un dirupo, Orlando e Rodomonte lottano furiosamente; a destra Fiordiligi, a cavallo, tende il braccio come per fermarli; a sinistra una moschea; dietro alle figure un torrente vorticoso avvolge nella nebbia delle sue rapide le rupi circostanti; sullo sfondo si staglia un paesaggio con mare e colline.</dc:description>
+				<dc:type>Quadro</dc:type>	
+				<dc:format>119,5 x 164 cm</dc:format>
+				<dc:format>Olio su tela</dc:format>
+				<dc:source>https://www.lombardiabeniculturali.it/</dc:source>
+				<dc:identifier>https://www.lombardiabeniculturali.it/opere-arte/schede/D0090-00756/</dc:identifier>
+				<dc:publisher>Musei Civici di Arte e Storia, Brescia</dc:publisher>
+				<dc:coverage>Monastero di Santa Giulia, Brescia</dc:coverage>
+				<dc:rights>Proprietà Ente pubblico territoriale</dc:rights>
+			</object>
+		</author>
+	</library>
